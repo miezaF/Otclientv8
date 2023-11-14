@@ -8,6 +8,14 @@ UIWidget
   margin-top: 1
 
   UILabel
+    id: logo
+    size: 196 112
+    image-source: /images/logo
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-bottom: 175
+
+  UILabel
     id: clientVersionLabel
     background-color: #00000099
     anchors.right: parent.right
